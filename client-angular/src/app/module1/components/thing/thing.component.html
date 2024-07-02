@@ -1,0 +1,5 @@
+<div class="thing {{thing.status}}" [class.first]="isFirst" [class.joined]="!isFirst"
+    [class.pending]="isFirst && notAllThingsAreOpen">
+    <p class="default-sku">{{thing.defaultSku}}</p>
+    <p class="sku">{{thing.sku}}</p>
+</div>

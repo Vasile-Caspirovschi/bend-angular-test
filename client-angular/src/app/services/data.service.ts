@@ -12,11 +12,11 @@ export class DataService {
 
   constructor(private http: HttpClient) { }
 
-  getThings() :Observable<Thing[]> {
+  getThings(): Observable<Thing[]> {
     return this.http.get<Thing[]>(`${this.baseUrl}/things`);
   }
 
-  getAreas() :Observable<Area[]> {
+  getAreas(): Observable<Area[]> {
     return this.http.get<Area[]>(`${this.baseUrl}/areas`);
   }
 }

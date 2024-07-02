@@ -1,0 +1,40 @@
+[
+  {
+    "id": 2861,
+    "areaId": 1791,
+    "joinedWith": null,
+    "sku": "3",
+    "defaultSku": "3",
+    "status": "open",
+    "countActive": 0
+  },
+  {
+    "id": 2967,
+    "areaId": 1791,
+    "joinedWith": 2861,
+    "sku": "1",
+    "defaultSku": "1",
+    "status": "closed",
+    "countActive": 0
+  },
+  {
+    "id": 2969,
+    "areaId": 1791,
+    "joinedWith": 2861,
+    "sku": "4",
+    "defaultSku": "4",
+    "status": "open",
+    "countActive": 1
+  },
+  {
+    "id": 2977,
+    "areaId": 1791,
+    "joinedWith": 2861,
+    "sku": "12",
+    "defaultSku": "12",
+    "status": "open",
+    "countActive": 0
+  }
+]
+
+// SO THE ORANGE COLOR MEANS THAT NOT ALL THE JOINED THINGS ARE OPEN

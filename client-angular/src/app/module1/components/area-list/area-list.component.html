@@ -1,0 +1,5 @@
+<div class="areas flow">
+   <ng-container *ngFor="let area of areas">
+      <app-area [area]="area" [things]=getAreaThings(area)></app-area>
+   </ng-container>
+</div>
