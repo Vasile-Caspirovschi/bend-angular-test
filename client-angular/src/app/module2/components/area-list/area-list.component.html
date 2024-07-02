@@ -1,0 +1,10 @@
+<div class="areas">
+   <ng-container *ngIf="areas$ | async as areas; else noData">
+      <div *ngFor="let area of areas">
+         <app-area [area]="area" [things$]="things$"></app-area>
+      </div>
+   </ng-container>
+   <ng-template #noData>
+      No data available
+   </ng-template>
+</div>

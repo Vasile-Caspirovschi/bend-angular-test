@@ -1,0 +1,8 @@
+<div class="area mt-400">
+    <h3>{{area.name}}</h3>
+    <div class="groups">
+        <ng-container *ngFor="let group of groupedAndSortedAreaThings$ | async">
+            <app-group [group]="group"></app-group>
+        </ng-container>
+    </div>
+</div>

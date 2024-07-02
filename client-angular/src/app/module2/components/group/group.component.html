@@ -1,0 +1,5 @@
+<div class="group">
+    <ng-container *ngFor="let thing of group.things; let first = first">
+        <app-thing [thing]="thing" [isFirst]="first" [notAllThingsAreOpen]="notAllThingsAreOpen"></app-thing>
+    </ng-container>
+</div>
